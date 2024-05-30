@@ -922,7 +922,4 @@ do
 		Library.Unload()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AnderDevUI/Anderson_Modules/main/Main/Index/Main.lua"))()
 	end
-
-	
-	})
 end
