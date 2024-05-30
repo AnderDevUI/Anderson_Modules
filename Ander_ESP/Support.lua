@@ -14,7 +14,7 @@ local unpack = table.unpack
 local wait, spawn = task.wait, task.spawn
 local getgenv, getrawmetatable, gethiddenproperty = getgenv, getrawmetatable, gethiddenproperty
 
-local ConfigLibrary = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/Ander/Config-Library/main/Main.lua"))()
+local ConfigLibrary = loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/AnderDevUI/Anderson_Modules/main/Ander_ESP/Config-Lib/Main.lua"))()
 
 local Vector2new, Vector3zero, CFramenew = Vector2.new, Vector3.zero, CFrame.new
 local Drawingnew, DrawingFonts = Drawing.new, Drawing.Fonts
