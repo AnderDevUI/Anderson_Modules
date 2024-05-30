@@ -46,7 +46,7 @@ local MainFrame = Library:CreateWindow({
 	Name = "Ander",
 	Themeable = {
 		Image = "7059346386",
-		Info = "Made by Exunys\nPowered by Pepsi's UI Library",
+		Info = "Made by AndersonDevUI",
 		Credit = false
 	},
 	Background = "",
@@ -905,22 +905,22 @@ FunctionsSection:AddButton({
 FunctionsSection:AddButton({
 	Name = "Copy Script Page",
 	Callback = function()
-		setclipboard("https://github.com/Exunys/Ander")
+		setclipboard("https://github.com/AnderDevUI/Anderson_Modules")
 	end
 })
 
 --// Ander V2 Prompt
 
 do
-	local Aux = Instance.new("BindableFunction")
+	local Ins = Instance.new("BindableFunction")
     
-	Aux.OnInvoke = function(Answer)
+	Ins.OnInvoke = function(Answer)
 		if Answer == "No" then
 			return
 		end
 
 		Library.Unload()
-		loadstring(game:HttpGet(""))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AnderDevUI/Anderson_Modules/main/Main/Index/Main.lua"))()
 	end
 
 	
